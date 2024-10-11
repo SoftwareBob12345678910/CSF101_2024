@@ -11,7 +11,6 @@
 
  #  Reads the input file and returns a list of student records as tuples (name, score).
 def read_file(file_path):
-    """Reads the input file and returns a list of student records as tuples (name, score)."""
 
     # Opens the file in read mode
     with open(file_path, 'r') as file:
